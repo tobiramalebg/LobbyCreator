@@ -1,0 +1,40 @@
+message:
+  nopermission: "&cYou do not have permissions."
+  prefix: "&eLobbyCreator »"
+  lobby:
+    denied: "&cConnection has been refused."
+    tp: "&7Connecting to: &aLobby"
+    error: "&cError when connecting into &aLobby&c."
+    create: "&cLobby successfully created."
+    islobby: "&cThis server is defined as Lobby."
+    already: "&cYou're already connected into lobby."
+    reload: "&aConfiguration files reloaded."
+    remove:
+      message: " &aLobby successfully removed."
+      arguments: "&cMissing arguments, /lobbyremove <lobby>"
+      error: "&cThis server does not exists or is not defined as lobby."
+    waiting: "&aConnecting to lobby in %time%seconds"
+    cancel: "&cCancelled."
+    transport:
+      sucess: "&a%target_amount% players from %target% has been teleported to %objetive%"
+      equals: "&cServers cannot be same."
+      error: "&cServer %server% is not defined as lobby."
+      arguments: "&cUse /lobbytransport <server> <server>"
+    list:
+      header: "&6&m==================="
+      message: "&6%lobby%  - %amount% players"
+      footer: "&6====================="
+    server:
+      sucess: "&aJoined %server%"
+      error: "&cThat server is not set as a lobby"
+      arguments: "&cUse /lobbyserver <server>"
+    teleport:
+      sucess: "&aPlayer %player% has been teleported to: %server%"
+      player: "&aStaff member teleported you to lobby."
+      error: "&cThis player is offline."
+      arguments: "&cUse /lobbytp <player>"
+    mode:
+      arguments: "&cUse /lobbymode <mode>"
+      sucess: "&aMode is now set on: %mode%"
+    delay:
+      message: "&cPlease be patient!."
